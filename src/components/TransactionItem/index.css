@@ -1,0 +1,39 @@
+.list-style {
+  padding-left: 3px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: #d7dfe9 1px solid;
+}
+
+.list-text {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.del-icon {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-text {
+    font-size: 18px;
+  }
+
+  .del-icon {
+    height: 30px;
+    width: 30px;
+  }
+}

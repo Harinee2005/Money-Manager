@@ -1,0 +1,64 @@
+.background {
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.green {
+  background-color: #ecfccb;
+  border: #84cc16 1px solid;
+}
+
+.blue {
+  background-color: #cffafe;
+  border: #06b6d4 1px solid;
+}
+
+.purple {
+  background-color: #ede9fe;
+  border: #7c3aed 1px solid;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+}
+
+.content-container {
+  margin-left: 10px;
+}
+
+.name {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin: 0;
+}
+
+.amount {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 23px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+    width: 30%;
+    margin-right: 10px;
+  }
+  .img {
+    height: 80px;
+    width: 80px;
+  }
+  .amount {
+    font-size: 25px;
+  }
+  .name {
+    font-size: 20px;
+  }
+}
